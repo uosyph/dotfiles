@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/YousefsDotfilesHeader.png" alt="Yousef's Dotfiles" width="600px">
+<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/YousefsDotfilesHeader.png" alt="Yousef's Dotfiles" width="700px">
 </div>
 
 ---
