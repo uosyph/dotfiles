@@ -28,3 +28,11 @@ Gnome Modules :
 - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
     - Adds blur to the gnome shell
 
+<br>
+
+## Screenshots
+
+<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/demo0.png">
+<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/demo1.png">
+<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/demo2.png">
+<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/demo3.png">
