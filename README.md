@@ -19,5 +19,12 @@
 - **Firefox Theme :** [starry-fox](https://github.com/sagars007/starry-fox) (custom CSS and JS)
 - **Spotify Theme :** [Dribbblish](https://github.com/spicetify/spicetify-themes/tree/master/Dribbblish)
 
+<br>
 
+Gnome Modules :
+
+- [Mutter Rounded](https://github.com/yilozt/mutter-rounded)
+    - Adds rounded edges and blur to windows
+- [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+    - Adds blur to the gnome shell
 
