@@ -30,8 +30,8 @@
   <style name="cursor" foreground="off_white"/>
   <style name="current-line" background="tinted_grey"/>
   <style name="line-numbers" foreground="med_grey" background="black_grey" bold="true" />
-  <style name="selection" foreground="off_white2" background="tinted_grey" />
-  <style name="selection-unfocused" foreground="off_white2" background="tinted_grey" />
+  <style name="selection" foreground="pink_sandstone" background="dark_grey" />
+  <style name="selection-unfocused" foreground="pink_sandstone" background="dark_grey" />
 
 <!-- Bracket Matching -->
   <style name="bracket-match" background="steelblue3"/>
