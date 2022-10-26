@@ -12,3 +12,5 @@ eval "$(starship init bash)"
 
 export PATH=$PATH:/home/yousef/.spicetify
 . "$HOME/.cargo/env"
+
+export PATH="$PATH:/home/yousef/.local/bin"
