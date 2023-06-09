@@ -2,11 +2,9 @@
 <img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/YousefsDotfilesHeader.png" alt="Yousef's Dotfiles" width="700px">
 </div>
 
----
+<hr>
 
-<br>
-
-## Information
+# Information
 
 - **OS :** [Arch Linux](https://archlinux.org)
 - **DE :** [Gnome](https://www.gnome.org)
@@ -21,7 +19,7 @@
 
 <br>
 
-Gnome Modules :
+### Gnome Modules :
 
 - [Mutter Rounded](https://github.com/yilozt/mutter-rounded)
     - Adds rounded edges and blur to windows
