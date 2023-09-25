@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/YousefsDotfilesHeader.png" alt="Yousef's Dotfiles" width="700px">
+<img src="assets/YousefsDotfilesHeader.png" alt="Yousef's Dotfiles" width="700px">
 </div>
 
 <hr>
@@ -28,7 +28,7 @@
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/demo0.png">
-<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/demo1.png">
-<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/demo2.png">
-<img src="https://raw.githubusercontent.com/yousafesaeed/dotfiles/main/assets/demo3.png">
+<img src="assets/demo0.png">
+<img src="assets/demo1.png">
+<img src="assets/demo2.png">
+<img src="assets/demo3.png">
