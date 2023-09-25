@@ -3,6 +3,8 @@
 This is a step-by-step follow-up guide to set up the same configuration I have on my Arch system.
 It serves as a reference in case you need to fix a problem or set up your machine.
 
+THIS FILE IS STILL UNDER CONSTRUCTION.
+
 ## Window Manager
 
 ### Bumblebee
@@ -185,4 +187,88 @@ Build and install yay:
 
 ```bash
 makepkg -si
+```
+
+## Pacman
+
+Uncomment the `Color` line and add the line `ILoveCandy` to enable colored output and a Pacman Easter egg:
+
+```bash
+sudo vim /etc/pacman.conf
+```
+
+### Reflector
+
+Back up the original mirror list:
+
+```bash
+sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
+```
+
+Setup the new mirror list using Reflector:
+
+```bash
+sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+```
+
+## Fonts
+
+Install necessary fonts:
+
+```bash
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji
+```
+
+Install additional fonts using yay:
+
+```bash
+yay -S ttf-arabeyes-fonts ttf-ubuntu-arabic ttf-dejavu-ib ttf-sil-lateef
+```
+
+## Keyboard Controls
+
+### Volume
+
+Control volume using pactl:
+
+```bash
+pactl --help
+```
+
+### Brightness
+
+Install [acpilight](https://archlinux.org/packages/?name=acpilight) to control brightness:
+
+```bash
+sudo pacman -S acpilight
+```
+
+Add your user to the video group:
+
+```bash
+sudo usermod -aG video $USER
+```
+
+### Xbindkeys
+
+Copy the `.xbindkeysrc` file to the home directory `~` to control brightness using the keyboard.
+
+Run xbindkeys:
+
+```bash
+xbindkeys
+```
+
+## Packages
+
+Install the following packages using pacman:
+
+```bash
+sudo pacman -S feh htop neofetch cmatrix man picom nano
+```
+
+Install the following packages using yay:
+
+```bash
+yay -S visual-studio-code-bin github-desktop google-chrome
 ```
