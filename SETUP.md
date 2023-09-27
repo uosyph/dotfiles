@@ -2,6 +2,8 @@
 
 This is a step-by-step follow-up guide to set up the same configuration I have on my Arch system.
 It serves as a reference in case you need to fix a problem or set up your machine.
+Please note that this setup is specific to my machine as it includes my personalized settings, username, and other individual configurations.
+Therefore, when following this guide, please exercise caution and make the necessary adjustments to match your own system.
 
 THIS FILE IS STILL UNDER CONSTRUCTION.
 
@@ -25,6 +27,20 @@ Enable the Bumblebee service:
 
 ```bash
 sudo systemctl enable bumblebeed.service
+```
+
+### Xinit
+
+Create a new Xinit configuration file:
+
+```bash
+touch ~/.xinitrc
+```
+
+Add the line "exec awesome" to the Xinit configuration file:
+
+```bash
+echo "exec awesome" >> ~/.xinitrc
 ```
 
 ### Lightdm
@@ -149,6 +165,40 @@ Run the script with the desired resolution:
 
 ```bash
 ~/xrandr.sh 1366 768 60
+```
+
+### Xresources
+
+Create a new Xresources file:
+
+```bash
+touch ~/.Xresources
+```
+
+Add the line "Xft.dpi: 100" to the Xresources file:
+
+```bash
+echo "Xft.dpi: 100" >> ~/.Xresources
+```
+
+Merge the Xresources file using xrdb:
+
+```bash
+xrdb -merge ~/.Xresources
+```
+
+## GTK
+
+Create a new GTK settings file:
+
+```bash
+touch /etc/gtk-3.0/settings.ini
+```
+
+Add the line `gtk-application-prefer-dark-theme = true` to the GTK settings file:
+
+```bash
+echo "gtk-application-prefer-dark-theme = true" >> /etc/gtk-3.0/settings.ini
 ```
 
 ## yay
