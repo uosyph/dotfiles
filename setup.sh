@@ -78,3 +78,13 @@ curl -o ~/aur_pkglist.txt "https://raw.githubusercontent.com/yousafesaeed/dotfil
 
 yay -S --noconfirm --needed - < ~/aur_pkglist.txt
 rm ~/aur_pkglist.txt
+
+# Install Spicetify
+# curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+# curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+
+# sudo chmod a+wr /opt/spotify
+# sudo chmod a+wr /opt/spotify/Apps -R
+
+# spicetify backup apply
+# rm ~/install.log

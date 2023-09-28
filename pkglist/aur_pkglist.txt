@@ -1,0 +1,8 @@
+visual-studio-code-bin
+github-desktop
+google-chrome
+ttf-arabeyes-fonts
+ttf-ubuntu-arabic
+ttf-dejavu-ib
+ttf-sil-lateef
+spotify
