@@ -6,3 +6,4 @@ ttf-ubuntu-arabic
 ttf-dejavu-ib
 ttf-sil-lateef
 spotify
+cli-visualizer
