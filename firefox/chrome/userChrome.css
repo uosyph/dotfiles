@@ -1,11 +1,12 @@
 /*  Clean and tight extensions menu */
+
 #unified-extensions-panel #unified-extensions-view {
-    width: 100% !important; /*  For firefox v115.x */
+	width: 100% !important; /*  For firefox v115.x */
 }
 
-#unified-extensions-view{
-    --uei-icon-size: 18px; /*  Change icon size */
-    --firefoxcss-number-of-extensions-in-a-row: 3; /*  Increase to the number of icons you want in one row */
+#unified-extensions-view {
+	--uei-icon-size: 18px; /*  Change icon size */
+	--firefoxcss-number-of-extensions-in-a-row: 3; /*  Increase to the number of icons you want in one row */
 }
 
 #unified-extensions-view .panel-header,
@@ -13,40 +14,114 @@
 #unified-extensions-view .panel-subview-body + toolbarseparator,
 #unified-extensions-view #unified-extensions-manage-extensions,
 #unified-extensions-view .unified-extensions-item-menu-button.subviewbutton,
-#unified-extensions-view .unified-extensions-item-action-button .unified-extensions-item-contents{
-    display:none !important;
+#unified-extensions-view
+	.unified-extensions-item-action-button
+	.unified-extensions-item-contents {
+	display: none !important;
 }
 
 #unified-extensions-view .panel-subview-body {
-    padding:4px !important;
+	padding: 4px !important;
 }
 
-#unified-extensions-view .unified-extensions-item .unified-extensions-item-icon, 
+#unified-extensions-view .unified-extensions-item .unified-extensions-item-icon,
 #unified-extensions-view .unified-extensions-item .toolbarbutton-badge-stack {
-    margin-inline-end: 0px !important;
+	margin-inline-end: 0px !important;
 }
 
 #unified-extensions-view #overflowed-extensions-list,
 #unified-extensions-view #unified-extensions-area,
 #unified-extensions-view .unified-extensions-list {
-    display: grid !important;
-    grid-template-columns: repeat(var(--firefoxcss-number-of-extensions-in-a-row),auto);
-    justify-items:left !important;
-    align-items:left !important;
+	display: grid !important;
+	grid-template-columns: repeat(
+		var(--firefoxcss-number-of-extensions-in-a-row),
+		auto
+	);
+	justify-items: left !important;
+	align-items: left !important;
 }
 
 #unified-extensions-view .unified-extensions-list .unified-extensions-item,
-#unified-extensions-view .unified-extensions-list{
-     max-width: max-content;
+#unified-extensions-view .unified-extensions-list {
+	max-width: max-content;
 }
 
 #unified-extensions-view #unified-extensions-area {
-    padding-bottom: 3px !important;
-    border-bottom: 1px solid #aeaeae33 !important;
+	padding-bottom: 3px !important;
+	border-bottom: 1px solid #aeaeae33 !important;
 }
 
-#wrapper-edit-controls:is([place="palette"], 
-[place="panel"]) > #edit-controls, #wrapper-zoom-controls:is([place="palette"], 
-[place="panel"]) > #zoom-controls, :is(panelview, #widget-overflow-fixed-list) .toolbaritem-combined-buttons {
-  margin: 0px !important;
+#wrapper-edit-controls:is([place="palette"], [place="panel"]) > #edit-controls,
+#wrapper-zoom-controls:is([place="palette"], [place="panel"]) > #zoom-controls,
+:is(panelview, #widget-overflow-fixed-list) .toolbaritem-combined-buttons {
+	margin: 0px !important;
+}
+
+/* ----------------------------------------------- */
+
+/* Remove tab close button. Appear on hover with smooth transitions */
+
+.tabbrowser-tab:not([pinned]) .tab-close-button {
+	display: -moz-box !important;
+	opacity: 0;
+	visibility: collapse !important;
+	transition: all 200ms ease-in-out,
+		fill 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+
+.tabbrowser-tab:not([pinned]):hover .tab-close-button {
+	opacity: 1;
+	visibility: visible !important;
+	transition: all 200ms ease-in-out,
+		fill 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+.tabbrowser-tab:not([pinned]):hover .tab-close-button:hover {
+	fill: #ff0000 !important;
+	transition: all 200ms ease-in-out,
+		fill 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+
+.tabbrowser-tab {
+	--tab-label-mask-size: 1em !important;
+}
+
+.close-icon {
+	transition: fill 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+.close-icon:hover {
+	fill: #ff0000 !important;
+}
+
+/* ----------------------------------------------- */
+
+/** Fix tab icon (sound icon was replacing site icon) */
+
+/* grey #42414D */
+
+/* Always show tab icon */
+.tab-icon-image {
+	opacity: 1 !important;
+}
+
+/* Move tab sound icon to the top left */
+.tab-icon-overlay {
+	/* top - left */
+	top: -6px !important;
+	inset-inline-end: 6px !important;
+	width: 14px !important;
+	height: 14px !important;
+	padding: 1px !important;
+	/* background */
+	stroke: var(--tab-icon-overlay-stroke, black) !important;
+	background: var(--tab-icon-overlay-stroke, black) !important;
+	fill-opacity: 0.6 !important;
+	/* icon color */
+	color: #00ddff !important;
+	/* circle */
+	border-radius: 10px !important;
+}
+
+.tab-icon-overlay:hover {
+	/* background */
+	fill-opacity: 1 !important;
 }

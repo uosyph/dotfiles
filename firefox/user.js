@@ -125,6 +125,3 @@ user_pref("ui.key.menuAccessKeyFocuses", false);
 
 // Change scrollbar style
 user_pref("widget.non-native-theme.scrollbar.style", 3);
-
-// Always show scrollbar
-user_pref("layout.testing.overlay-scrollbars.always-visible", true);
