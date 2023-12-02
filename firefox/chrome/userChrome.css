@@ -30,11 +30,10 @@
 
 @import 'includes/cascade-config.css';
 
-@import 'includes/extensions.css';
-
 @import 'includes/cascade-layout.css';
 @import 'includes/cascade-responsive.css';
-@import 'includes/cascade-floating-panel.css';
+
+@import 'includes/extensions.css';
 
 @import 'includes/cascade-nav-bar.css';
 @import 'includes/cascade-tabs.css';

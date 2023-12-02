@@ -1,0 +1,18 @@
+/* Prevent white flash during page load */
+@-moz-document url(chrome://browser/content/browser.xhtml)
+{
+	browser[type='content-primary'] {
+		background: #1a1b26 !important;
+	}
+}
+
+/* Change scrollbar color */
+* {
+	scrollbar-color: #0db9d78f #00000000 !important;
+}
+
+/* Change text selection color */
+::-moz-selection {
+	background-color: #0db9d78f !important;
+	color: #bec9d7 !important;
+}

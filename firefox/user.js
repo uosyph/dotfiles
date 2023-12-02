@@ -118,3 +118,6 @@ user_pref("ui.key.menuAccessKeyFocuses", false);
 
 // Change scrollbar style
 user_pref("widget.non-native-theme.scrollbar.style", 3);
+
+// Disable quick find
+user_pref("accessibility.typeaheadfind.manual", false);
