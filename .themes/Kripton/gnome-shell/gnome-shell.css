@@ -1,0 +1,51 @@
+/* Tweaks for my needs, not the entire theme */
+/* Original theme: https://github.com/EliverLara/Kripton */
+
+/* ******* TOP BAR ******* */
+#panel .panel-button:active,
+#panel .panel-button:overview,
+#panel .panel-button:focus,
+#panel .panel-button:checked {
+	color: white;
+	text-shadow: none;
+	box-shadow: inset 0 0 0 100px rgba(155, 191, 191, 0.35);
+}
+#panel:overview .panel-button:active,
+#panel:overview .panel-button:overview,
+#panel:overview .panel-button:focus,
+#panel:overview .panel-button:checked {
+	color: white !important;
+}
+
+/* ******* OSD & App Switcher ******* */
+.osd-window,
+.resize-popup,
+.switcher-list,
+.workspace-switcher-container {
+	color: #e0e0e0;
+	background-color: rgba(23, 26, 31, 0.95);
+	border-radius: 22px;
+	box-shadow: 0px 0px 32px 6px rgba(0, 0, 0, 0.35);
+	padding: 12px;
+}
+.switcher-list .item-box {
+	padding: 8px;
+	border-radius: 22px;
+}
+
+/* ******* Clock ******* */
+#panel .panel-button:active.clock-display .clock,
+#panel .panel-button:overview.clock-display .clock,
+#panel .panel-button:focus.clock-display .clock,
+#panel .panel-button:checked.clock-display .clock {
+	box-shadow: inset 0 0 0 100px rgba(155, 191, 191, 0.35);
+}
+
+/* ******* Dock ******* */
+.app-well-app-running-dot {
+	width: 6px;
+	height: 3px;
+	border-radius: 2px;
+	background-color: #789e9e;
+	margin-bottom: 0;
+}
