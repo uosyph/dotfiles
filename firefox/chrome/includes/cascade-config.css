@@ -86,7 +86,7 @@
 }
 
 
-/* Change Navigation Buttons icon */
+/* Change Navigation and Extensions Buttons icon */
 #back-button {
 	list-style-image: url("../assets/back.svg") !important;
   padding: 0 !important;
@@ -95,6 +95,10 @@
 #forward-button {
 	list-style-image: url("../assets/forward.svg") !important;
   padding: 0 !important;
+}
+
+#unified-extensions-button {
+	list-style-image: url("../assets/extensions.svg") !important;
 }
 
 /* Disable Reload and Stop Buttons */
