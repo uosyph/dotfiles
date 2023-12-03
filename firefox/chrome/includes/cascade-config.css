@@ -7,13 +7,7 @@
 
   /*  Global Border Radius
    *  applied to ALL UI elements
-   */ --uc-border-radius: 0px;
-
-
-  /*  The distance the Statuspanel floats
-   *  away from the window border
-   *  0 places directly in the corner
-   */ --uc-status-panel-spacing: 12px;
+   */ --uc-border-radius: 4px;
 
 }
 

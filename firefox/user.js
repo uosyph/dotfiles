@@ -121,3 +121,7 @@ user_pref("widget.non-native-theme.scrollbar.style", 3);
 
 // Disable quick find
 user_pref("accessibility.typeaheadfind.manual", false);
+
+// Disable result menu in the address bar
+user_pref("browser.urlbar.resultMenu", false);
+user_pref("browser.urlbar.resultMenu.keyboardAccessible", false);
