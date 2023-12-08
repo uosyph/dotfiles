@@ -1,3 +1,14 @@
+/* Hide firefox logo, search bar, and 'Personalize new tab' button on home page */
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+	.search-wrapper {
+		display: none;
+	}
+
+	.personalize-button {
+		display: none !important;
+	}
+}
+
 /* Prevent white flash during page load */
 @-moz-document url(chrome://browser/content/browser.xhtml)
 {
