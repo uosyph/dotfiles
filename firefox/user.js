@@ -125,3 +125,6 @@ user_pref("accessibility.typeaheadfind.manual", false);
 // Disable result menu in the address bar
 user_pref("browser.urlbar.resultMenu", false);
 user_pref("browser.urlbar.resultMenu.keyboardAccessible", false);
+
+// Hide https in the URL
+user_pref("browser.urlbar.trimHttps", true);
