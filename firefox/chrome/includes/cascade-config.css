@@ -3,7 +3,7 @@
  +---+---+---+---+---+---*/
 
 
-:root {
+ :root {
 
   /*  Global Border Radius
    *  applied to ALL UI elements
@@ -50,6 +50,44 @@
   --uc-darken-toolbar: 0;
 }}
 
+/* Change the icon for Navigation and Extensions Buttons */
+#back-button {
+	list-style-image: url("../assets/back.svg") !important;
+  padding: 0 !important;
+}
+
+#forward-button {
+	list-style-image: url("../assets/forward.svg") !important;
+  padding: 0 !important;
+}
+
+#unified-extensions-button {
+	list-style-image: url("../assets/extensions.svg") !important;
+}
+
+/* Disable Reload and Stop Buttons */
+#reload-button, #stop-button { display: none !important; }
+
+/* Disable Backwards and Forwards Buttons when unavailable */
+#back-button[disabled] { display: none !important; }
+#forward-button[disabled] { display: none !important; }
+
+/* Hide the download button after 90 seconds of all completed downloads */
+@keyframes hideDownloadsButton {
+  to {
+    padding: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    display: none;
+  }
+}
+
+#downloads-button[attention="success"] {
+  animation: hideDownloadsButton .01s forwards 90s;
+}
+
 
 
 
@@ -80,24 +118,6 @@
 }
 
 
-/* Change Navigation and Extensions Buttons icon */
-#back-button {
-	list-style-image: url("../assets/back.svg") !important;
-  padding: 0 !important;
-}
-
-#forward-button {
-	list-style-image: url("../assets/forward.svg") !important;
-  padding: 0 !important;
-}
-
-#unified-extensions-button {
-	list-style-image: url("../assets/extensions.svg") !important;
-}
-
-/* Disable Reload and Stop Buttons */
-#reload-button, #stop-button { display: none !important; }
-
 /* Disables the Tracking Protection Shield */
 #tracking-protection-icon-container { display: none !important; }
 
@@ -115,7 +135,6 @@
 
 /* Hide the »Go«-arrow in the URL Bar */
 #urlbar-go-button { display: none !important; }
-
 
 
 

@@ -128,3 +128,7 @@ user_pref("browser.urlbar.resultMenu.keyboardAccessible", false);
 
 // Hide https in the URL
 user_pref("browser.urlbar.trimHttps", true);
+
+// Hide popup when downloading starts
+user_pref("browser.download.alwaysOpenPanel", false);
+
