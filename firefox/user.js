@@ -132,3 +132,5 @@ user_pref("browser.urlbar.trimHttps", true);
 // Hide popup when downloading starts
 user_pref("browser.download.alwaysOpenPanel", false);
 
+// Disable Open Link in New Container Tab button
+user_pref("privacy.userContext.enabled", false);
