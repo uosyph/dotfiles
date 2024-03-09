@@ -1,0 +1,26 @@
+/* Prevent white flash during page load */
+@-moz-document url(chrome://browser/content/browser.xhtml)
+{
+  #main-window,
+  browser[type="content-primary"],
+  browser[type="content"],
+  tabbrowser#content,
+  #content,
+  browser[type="content"] > html
+  {
+     background: #1a1b26 !important;
+  }
+}
+
+/* Reduce context menu entries for images */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); 
+#context-openlink,
+#context-openlinkprivate,
+#context-savelinktopocket,
+#context-sendimage,
+#context-sendlinktodevice,
+#context-sep-setbackground,
+#context-setDesktopBackground,
+#context-inspect-a11y {
+ display:none!important;
+}
