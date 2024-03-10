@@ -12,7 +12,7 @@ PS1='[\u@\h \W]\$ '
 export PATH=$PATH:/home/yousef/.spicetify:/home/yousef/.local/bin
 
 export HISTCONTROL=ignoredups:ignorespace
-HISTIGNORE="shutdown reboot"
+HISTIGNORE="shutdown*:reboot*:rm -rf*:rm -r*:sudo rm -rf*:sudo rm -r*"
 
 nut() {
     nohup nautilus -w $1 > /dev/null 2>&1 &
