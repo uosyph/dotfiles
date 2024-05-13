@@ -1,0 +1,14 @@
+brave-bin
+cli-visualizer
+google-earth-pro
+mongodb-bin
+mongodb-compass
+noto-fonts-ar
+packettracer
+postman-bin
+simplescreenrecorder
+spotify
+ttf-ubuntu-arabic
+visual-studio-code-bin
+yay-git
+zoom
