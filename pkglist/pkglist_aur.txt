@@ -10,5 +10,6 @@ simplescreenrecorder
 spotify
 ttf-ubuntu-arabic
 visual-studio-code-bin
-yay-git
+yay
+yay-debug
 zoom

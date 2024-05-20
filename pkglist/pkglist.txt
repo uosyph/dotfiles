@@ -61,6 +61,7 @@ gvfs-smb
 htop
 iftop
 intel-ucode
+libreoffice-still
 links
 linux
 linux-firmware
