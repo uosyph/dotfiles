@@ -134,3 +134,6 @@ user_pref("browser.download.alwaysOpenPanel", false);
 
 // Disable Open Link in New Container Tab button
 user_pref("privacy.userContext.enabled", false);
+
+// Prevent apps from asking to be added for mailto links
+user_pref("network.protocol-handler.external.mailto", false);
