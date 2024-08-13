@@ -22,6 +22,6 @@ red = "#ff7a93"
 white = "#acb0d0"
 yellow = "#ff9e64"
 
-[window.padding]
-x = 25
-y = 10
+[window]
+padding = { x = 25, y = 10 }
+dimensions = { columns = 90, lines = 23 }
