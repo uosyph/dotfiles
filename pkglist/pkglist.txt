@@ -3,9 +3,12 @@ alacritty
 baobab
 base
 base-devel
+bat
 bluez
 bluez-utils
+brasero
 celluloid
+clutter
 cmatrix
 dconf-editor
 docker
@@ -91,6 +94,7 @@ obs-studio
 orca
 os-prober
 perl-image-exiftool
+postgresql
 pulseaudio
 python-pip
 ranger

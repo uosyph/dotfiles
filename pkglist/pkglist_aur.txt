@@ -8,6 +8,7 @@ packettracer
 postman-bin
 simplescreenrecorder
 spotify
+ttf-material-design-icons-extended
 ttf-ubuntu-arabic
 visual-studio-code-bin
 yay

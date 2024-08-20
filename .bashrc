@@ -18,6 +18,7 @@ alias py='python'
 alias cell='celluloid'
 alias gedit='gnome-text-editor'
 alias ctc='xclip -sel c <'
+alias nf='neofetch'
 
 nut() {
     nohup nautilus -w $1 > /dev/null 2>&1 &
