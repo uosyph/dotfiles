@@ -11,6 +11,7 @@ celluloid
 clutter
 cmatrix
 dconf-editor
+dex
 docker
 dosfstools
 epiphany
@@ -62,6 +63,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+hdparm
 htop
 iftop
 intel-ucode
@@ -93,6 +95,7 @@ nvidia-utils
 obs-studio
 orca
 os-prober
+pandoc-cli
 perl-image-exiftool
 postgresql
 pulseaudio
@@ -102,6 +105,7 @@ redis
 reflector
 rygel
 simple-scan
+sl
 snapshot
 starship
 sushi
@@ -111,6 +115,7 @@ tracker3-miners
 tree
 ttf-nerd-fonts-symbols
 unclutter
+usbutils
 vim
 vnstat
 w3m
