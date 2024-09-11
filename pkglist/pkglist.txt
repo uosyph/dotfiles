@@ -10,6 +10,7 @@ brasero
 celluloid
 clutter
 cmatrix
+dbeaver
 dconf-editor
 dex
 docker
@@ -81,6 +82,7 @@ nano
 nautilus
 neofetch
 neovim
+net-tools
 network-manager-applet
 networkmanager
 nodejs
@@ -124,6 +126,7 @@ wireless_tools
 xclip
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
+xdotool
 xf86-video-vesa
 xorg-bdftopcf
 xorg-docs

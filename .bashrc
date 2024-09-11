@@ -15,7 +15,7 @@ export HISTCONTROL=ignoredups:ignorespace
 HISTIGNORE="shutdown*:reboot*:rm -rf*:rm -r*:sudo rm -rf*:sudo rm -r*"
 
 alias py='python'
-alias cell='celluloid'
+alias watch='celluloid'
 alias gedit='gnome-text-editor'
 alias ctc='xclip -sel c <'
 alias nf='neofetch'
