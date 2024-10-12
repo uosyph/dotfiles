@@ -1,6 +1,7 @@
 brave-bin
 cli-visualizer
 google-earth-pro
+mlocate
 mongodb-bin
 mongodb-compass
 noto-fonts-ar
@@ -8,6 +9,9 @@ packettracer
 postman-bin
 simplescreenrecorder
 spotify
+teams
+teams-for-linux-bin
+tracker3-miners
 ttf-material-design-icons-extended
 ttf-ubuntu-arabic
 visual-studio-code-bin

@@ -19,6 +19,7 @@ alias watch='celluloid'
 alias gedit='gnome-text-editor'
 alias ctc='xclip -sel c <'
 alias nf='neofetch'
+alias nv='nvim'
 
 nut() {
     nohup nautilus -w $1 > /dev/null 2>&1 &

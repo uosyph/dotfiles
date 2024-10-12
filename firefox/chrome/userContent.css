@@ -23,7 +23,7 @@
 }
 
 /* Change text selection color */
-::-moz-selection {
+/* ::-moz-selection {
 	background-color: #0db9d78f !important;
 	color: #bec9d7 !important;
-}
+} */

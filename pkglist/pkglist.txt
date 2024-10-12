@@ -8,6 +8,7 @@ bluez
 bluez-utils
 brasero
 celluloid
+chromium
 clutter
 cmatrix
 dbeaver
@@ -77,7 +78,6 @@ loupe
 lynx
 malcontent
 mariadb
-mlocate
 nano
 nautilus
 neofetch
@@ -113,7 +113,6 @@ starship
 sushi
 tecla
 totem
-tracker3-miners
 tree
 ttf-nerd-fonts-symbols
 unclutter
