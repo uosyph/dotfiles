@@ -23,9 +23,11 @@ alias ctc='xclip -sel c <'
 alias nf='neofetch'
 alias nv='nvim'
 alias src='source venv/bin/activate'
+alias open='xdg-open'
+alias size='du -sh'
 
 nut() {
-  nohup nautilus -w $1 > /dev/null 2>&1 &
+  nohup nautilus -w $1 >/dev/null 2>&1 &
 }
 
 eval "$(starship init bash)"

@@ -69,6 +69,7 @@ hdparm
 htop
 iftop
 intel-ucode
+iw
 libreoffice-still
 links
 linux
@@ -78,6 +79,7 @@ loupe
 lynx
 malcontent
 mariadb
+mercurial
 nano
 nautilus
 neofetch
@@ -105,6 +107,7 @@ python-pip
 ranger
 redis
 reflector
+remmina
 rygel
 simple-scan
 sl

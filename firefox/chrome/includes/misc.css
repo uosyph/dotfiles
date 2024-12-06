@@ -24,3 +24,11 @@
 #context-inspect-a11y {
  display:none!important;
 }
+
+/* Hide screen sharing indicator */
+@-moz-document url('chrome://browser/content/webrtcIndicator.xhtml') {
+  :root {
+    display: none !important;
+  }
+}
+
